@@ -1,0 +1,46 @@
+- ### Information :
+
+  **Project Title** : alarm-clock
+
+  **Project Level** : Mini
+
+  **Start Date** : 31 May 2025
+
+  **End Date** : Developing...
+
+  **Idea from** : Creatively!
+
+  **Technologies Used in the Project** :
+
+  - _HTML_
+  - _CSS_
+  - _JavaScript_
+  - _Git_
+  - _Markdown_
+
+---
+
+- ### Demo :
+
+  Click [Here](https://hojjatgholamzadeh1997.github.io/alarm-clock/) to View the Project.
+
+---
+
+- ### Folder Structure :
+
+  - alarm-clock
+    - assets
+      - audio
+        - ringtone.mp3
+      - fonts
+      - images
+        - clock.svg
+      - favicon.png
+    - css
+      - main.css
+      - reset.css
+    - js
+      - index.js
+    - About.txt
+    - index.html
+    - README.md
