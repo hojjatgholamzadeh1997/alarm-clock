@@ -33,10 +33,12 @@
       - audio
         - ringtone.mp3
       - fonts
+        - Poppins-Light.ttf
       - images
         - clock.svg
       - favicon.png
     - css
+      - fonts.css
       - main.css
       - reset.css
     - js

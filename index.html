@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,13 +7,35 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
     <!-- CSS Files -->
+    <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <!-- Main -->
-    <main>Hello World!</main>
+    <main>
+      <div class="alarm-clock">
+        <!-- Clock Image -->
+        <img src="./assets/images/clock.svg" alt="clock" id="clock">
+        <!-- Time -->
+        <h1 id="time">00 : 00 : 00</h1>
+        <!-- Set Alarm -->
+        <div class="set-alarm">
+          <select name="hours" id="hours">
+            <option value="Hour" disabled selected hidden>Hour</option>
+          </select>
+          <select name="minutes" id="minutes">
+            <option value="Minute" disabled selected hidden>Minute</option>
+          </select>
+        </div>
+        <!-- Alarm Button -->
+        <button type="button" class="alarm-button" id="alarm-button">Set Alarm</button>
+        <audio src="./assets/audio/ringtone.mp3" id="audio"></audio>
+      </div>
+    </main>
     <!-- JS File -->
-     <script src="./js/index.js"></script>
+    <script src="./js/index.js"></script>
+    <!-- For Not Supporting JavaScript Codes -->
+    <noscript>Your browser does not support JavaScript!</noscript>
   </body>
 </html>

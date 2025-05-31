@@ -1,1 +1,99 @@
 /* Main */
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+
+  & .alarm-clock {
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 50px 25px 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: Poppins-Light, sans-serif;
+
+    & .set-alarm {
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 10px;
+
+      & select {
+        text-align: center;
+        outline: none;
+        padding: 5px 0;
+        border-radius: 5px;
+        font-family: inherit;
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        &:disabled {
+          opacity: 90%;
+          cursor: not-allowed;
+        }
+      }
+    }
+
+    & .alarm-button {
+      width: 100%;
+      background-color: #4A98F7;
+      color: #fff;
+      padding: 10px 0;
+      font-size: 15px;
+      border-radius: 5px;
+      font-family: inherit;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #2a8aff;
+      }
+    }
+  }
+}
+
+/* Animation on Ring */
+@keyframes ring {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  75% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes shining {
+  0% {
+    background-color: lightblue;
+  }
+  50% {
+    background-color: lightcyan;
+  }
+  100% {
+    background-color: lightskyblue;
+  }
+}
+
+.ring {
+  animation: ring 0.3s infinite;
+}
+
+.shining {
+  animation: shining 5s alternate infinite;
+}
