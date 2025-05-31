@@ -8,7 +8,7 @@
 
   **End Date** : 31 May 2025
 
-  **Idea from** : Creatively!
+  **Idea from** : [https://www.youtube.com/@next1code/javascript-projects/alarm-clock](https://youtu.be/cbWjnfR9GJc)
 
   **Technologies Used in the Project** :
 
