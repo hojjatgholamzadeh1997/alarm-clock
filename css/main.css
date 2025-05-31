@@ -30,6 +30,7 @@ main {
         padding: 5px 0;
         border-radius: 5px;
         font-family: inherit;
+        background-color: #fff;
 
         &:hover {
           cursor: pointer;

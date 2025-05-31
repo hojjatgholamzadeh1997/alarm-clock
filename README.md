@@ -6,7 +6,7 @@
 
   **Start Date** : 31 May 2025
 
-  **End Date** : Developing...
+  **End Date** : 31 May 2025
 
   **Idea from** : Creatively!
 
